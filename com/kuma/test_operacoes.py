@@ -10,4 +10,4 @@ class TestOperacoes(TestCase):
 		self.assertEqual(self.operacoes.soma([1,5]), 6, "Should be 6")
 
 	def test_subtracao(self):
-		self.assertEqual(self.operacoes.subtracao([1,5]), -4, "Should be -4")
+		self.assertEqual(self.operacoes.subtracao([7,5]), -12, "Should be -12")
