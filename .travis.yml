@@ -14,6 +14,8 @@ before_install:
 
 - pip install -U pytest-cov
 
+- pip install -r requirements.txt
+
 script:
 
 - pytest --cov=com.kuma com/kuma/test/
